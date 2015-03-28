@@ -1,0 +1,8 @@
+.project
+.pydevproject
+dev-ipynbs/c3h3dev/.ipynb_checkpoints/
+agilEarning.egg-info/
+build/
+dist/
+*.pyc
+
