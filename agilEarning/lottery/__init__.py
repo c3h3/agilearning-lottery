@@ -8,4 +8,6 @@ def getHistoricalData(from_year=2004, to_year=2015, data_only=False):
     
     df = pd.concat(hist_tables)
     df.columns = ["year","monthDay","YN","x1","x2","x3","x4","x5","x6","s","TN"]
+    df = df[["YN","TN","year","monthDay","x1","x2","x3","x4","x5","x6","s"]]
+    
     return df
